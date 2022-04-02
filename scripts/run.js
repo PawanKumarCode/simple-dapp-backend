@@ -17,7 +17,7 @@ const main = async () => {
     let mood = await moodDiaryContract.getMood();
 
 
-    //convert bignumber to normal number
+    //get mood
     console.log("My mood is ", mood);
 
 };
